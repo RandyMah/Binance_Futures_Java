@@ -9,7 +9,8 @@ import java.net.URL;
  */
 public class RequestOptions {
 
-    private String url = BinanceApiConstants.API_BASE_URL;
+    private String url = BinanceApiConstants.API_PRODUCTION_BASE_URL;
+//   private String url = BinanceApiConstants.API_TESTNET_BASE_URL;
 
     public RequestOptions() {
     }
